@@ -1,0 +1,1 @@
+// FileUploader.js placeholder

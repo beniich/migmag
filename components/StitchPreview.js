@@ -1,0 +1,1 @@
+// StitchPreview.js placeholder
