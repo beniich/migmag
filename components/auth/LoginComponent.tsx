@@ -22,7 +22,8 @@ export default function LoginComponent() {
             maxWidth: '400px',
             margin: '2rem auto',
             boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
-            fontFamily: 'Arial, sans-serif'
+            fontFamily: 'Arial, sans-serif',
+            backgroundColor: 'white'
         }}>
             <h2 style={{ marginBottom: '1.5rem', color: '#333' }}>Connexion</h2>
 
@@ -78,6 +79,29 @@ export default function LoginComponent() {
             >
                 Nous contacter sur WhatsApp
             </button>
+
+            <div style={{ width: '100%', height: '1px', backgroundColor: '#ddd', margin: '1rem 0' }}></div>
+
+            <a
+                href="/dashboard"
+                style={{
+                    display: 'block',
+                    padding: '10px 20px',
+                    width: '100%',
+                    backgroundColor: '#64748b',
+                    color: 'white',
+                    border: 'none',
+                    borderRadius: '5px',
+                    cursor: 'pointer',
+                    fontSize: '16px',
+                    fontWeight: 'bold',
+                    textDecoration: 'none',
+                    textAlign: 'center',
+                    boxSizing: 'border-box'
+                }}
+            >
+                Mode Démo (Vision)
+            </a>
         </div>
     );
 }
